@@ -76,6 +76,12 @@ export const master: Options = {
   ...options,
   branches: ["master"],
 };
+
+export const main: Options = {
+  ...options,
+  branches: ["main"],
+};
+
 export const production: Options = {
   ...options,
   branches: ["production"],
